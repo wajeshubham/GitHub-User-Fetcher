@@ -30,7 +30,6 @@ function SignUp() {
       .auth()
       .createUserWithEmailAndPassword(email, password)
       .then((res) => {
-        console.log(res);
         context.setUser({ email: res.user.email, uid: res.user.uid });
       })
       .catch((error) => {
