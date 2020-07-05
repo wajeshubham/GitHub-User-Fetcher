@@ -11,7 +11,7 @@ const Footer = () => {
       tag="footer"
       className="text-center bg-dark text-secondary p-3 fixed-bottom"
     >
-      GitHub Repository/user Search app using ReactJs and firebase
+      GitHub Repository/user Search app
       <span className="float-right text-white">
         <a href="https://github.com/wajeshubham" style={{ color: "white" }}>
           <FaGithub className="mr-2 mb-2" style={{ fontSize: "20px" }} />
