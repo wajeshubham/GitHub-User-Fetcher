@@ -8,7 +8,6 @@ const RepoCard = ({ repos_url }) => {
 
   const fetchRepo = async () => {
     const response = await Axios.get(repos_url);
-    console.log(response.data);
     setRepos(response.data);
   };
 
