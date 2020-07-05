@@ -25,7 +25,7 @@ const MyNavbar = () => {
     <Navbar color="dark" light expand="md" className="text-white p-3 mb-2">
       <NavbarBrand>
         <Link to="/" className="text-white" style={{ textDecoration: "none" }}>
-          <h4>SearchRepo</h4>
+          <h4>GetGit User</h4>
         </Link>
       </NavbarBrand>
       <NavbarText className="text-white mb-1 text-lowercase">
