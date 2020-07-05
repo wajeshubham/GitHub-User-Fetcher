@@ -88,7 +88,7 @@ function SignIn() {
                         type="password"
                         name="password"
                         id="password"
-                        placeholder="Enter your Password..."
+                        placeholder="Enter your GetGit Password..."
                         value={password}
                         onChange={(e) => setPassword(e.target.value)}
                       />
