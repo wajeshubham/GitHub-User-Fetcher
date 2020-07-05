@@ -49,7 +49,7 @@ function Home() {
             <Input
               type="text"
               value=""
-              placeholder="Find a user..."
+              placeholder="Enter GitHub username..."
               value={query}
               onChange={(e) => setQuery(e.target.value)}
             />
