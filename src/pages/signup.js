@@ -57,7 +57,7 @@ function SignUp() {
             <Card>
               <Form onSubmit={handleSubmit}>
                 <CardHeader className="">
-                  <h4>Register here</h4>
+                  <h4>Create an account</h4>
                 </CardHeader>
                 <CardBody>
                   <FormGroup row>
