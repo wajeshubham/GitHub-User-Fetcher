@@ -84,7 +84,7 @@ function SignUp() {
                         type="password"
                         name="password"
                         id="password"
-                        placeholder="Enter your Password..."
+                        placeholder="Create your Password..."
                         value={password}
                         onChange={(e) => setPassword(e.target.value)}
                       />
